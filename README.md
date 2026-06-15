@@ -89,20 +89,20 @@ test: 1391 объект
 Было проведено несколько запусков с разными значениями learning rate, dropout, branch_dim, hidden_dim, patience, функции потерь MSELoss и HuberLoss.
 
 ## Лучший результат по тестовым метрикам показал запуск:
-mlp_run_10
-dropout = 0.15
-learning rate = 0.0003
-branch_dim = 256
-hidden_dim = 512
-optimizer = AdamW
-loss = MSELoss
+- mlp_run_10
+- dropout = 0.15
+- learning rate = 0.0003
+- branch_dim = 256
+- hidden_dim = 512
+- optimizer = AdamW
+- loss = MSELoss
 
 ## Лучшие тестовые метрики: 
-Test loss = 0.3067
-MAE = 19 374.22
-RMSE = 33 411.29
-MAPE = 35.66%
-R2 = 0.6437
+- Test loss = 0.3067
+- MAE = 19 374.22
+- RMSE = 33 411.29
+- MAPE = 35.66%
+- R2 = 0.6437
 
 MAE показывает, что в среднем модель ошибается примерно на 19.4 тыс. рублей.
 R2 = 0.6437 означает, что модель объясняет около 64% вариации цены на тестовой выборке.
